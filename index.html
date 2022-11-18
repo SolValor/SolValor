@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+  
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm" style="background-color: #fff">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Imagenes/logo catering.png" alt="logo" width="70" height="70">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/watch?v=Q36czZQx3Nw" target="_blank">Youtube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/watch?v=Q36czZQx3Nw" target="_blank">Instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/watch?v=Q36czZQx3Nw" target="_blank">Twitter</a>
+              </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <header>
+        <h1>
+            Servicio de Catering
+        </h1>
+        <div class="container-xl">
+            <a href="Imagenes/Catering (p).jpg" data-lightbox="image-set" data-title="Portada"><img class="img-thumbnail"
+                src="Imagenes/Catering (p).jpg" alt="imagen_p"></a>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>
+                Nuestro Trabajo
+            </h2>
+            <p>
+                Fotografias de eventos realizados
+            </p>
+            <p>
+                Somos una compañia familiar que brinda desde hace 15 años los mejores caterings de Capital Federal para eventos, asegurando a todos nuestros clientes responsabilidad y productos de excelente calidad.
+                Realizamos eventos corporativos, fiestas de cumpleaños, casamientos, etc.
+            </p>
+        </div>
+        <div class="container text-xl-center">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-between  ">
+                <div class="col">
+                    <a href="Imagenes/Catering.png" data-lightbox="image-set" data-title="Catering"><img class="img-thumbnail"
+                        src="Imagenes/Catering.png" alt="imagen_1"></a>
+                </div>
+
+                <div class="col">
+                    <a href="Imagenes/Catering (1).png" data-lightbox="image-set" data-title="Catering"><img class="img-thumbnail"
+                        src="Imagenes/Catering (1).png" alt="imagen_2"></a>
+                </div>
+                <div class="col">
+                    <a href="Imagenes/Catering (2).png" data-lightbox="image-set" data-title="Catering"><img class="img-thumbnail"
+                        src="Imagenes/Catering (2).png" alt="imagen_3"></a>
+                </div>
+                <div class="col">
+                    <a href="Imagenes/Catering (3).png " data-lightbox="image-set" data-title="Catering"><img class="img-thumbnail"
+                        src="Imagenes/Catering (3).png" alt="imagen_4"></a>
+                </div>
+                <div class="col">
+                    <a href="Imagenes/Catering (4).png" data-lightbox="image-set" data-title="Catering"><img class="img-thumbnail"
+                        src="Imagenes/Catering (4).png" alt="imagen_5"></a>
+                </div>
+                <div class="col">
+                    <a href="Imagenes/Catering (5).png" data-lightbox="image-set" data-title="Catering"><img class="img-thumbnail"
+                        src="Imagenes/Catering (5).png" alt="imagen_6"></a>
+                </div>
+
+        <div>
+            <h3>
+                Consulta por tu presupuesto sin cargo
+            </h3>
+            <a id="boton" href="https://skalgubbar.se/" class="btn btn-light" tabindex="-1" role="button" aria-disabled="true" target="_blank">WhatsApp</a>
+        </div>
+
+        <div>
+        <video class="img-thumbnail" controls muted loop autoplay src="Videos/Video catering.mp4"></video> 
+        </div>
+        
+            <p id="mail">
+                Dejanos tu email para recibir mas novedades sobre nuestros servicios
+            </p>
+       
+         <form id="form2" action="PHP/code.php" method="post">
+                <label>Nombre <input name="name" placeholder="Tu nombre" type="text" required></label>
+                <label>Email <input name="email" placeholder="Tu email" type="email" required ></label>
+                <button class="btn btn-light">Enviar</button>
+        </form>
+    
+</script>
+
+    </main>
+
+<footer>.</footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
